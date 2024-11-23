@@ -63,6 +63,7 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
+            <Gradient />
           </div>
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%]  lg:-top-[104%]">
             <img
@@ -73,6 +74,7 @@ const Hero = () => {
               height={1800}
             />
           </div>
+          <BackgroundCircles />
         </div>
       </div>
     </Section>
