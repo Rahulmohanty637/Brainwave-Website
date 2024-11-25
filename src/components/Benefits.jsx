@@ -3,6 +3,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { benefits } from "../constants";
 import Arrow from "../assets/svg/Arrow";
+import { GradientLight } from "./design/Benefits";
 
 const Benefits = () => {
   return (
@@ -39,6 +40,12 @@ const Benefits = () => {
                   <Arrow />
                 </div>
               </div>
+              {item.light && <GradientLight />}
+
+              <div
+                className="absolute inset-0.5 bg-n-8"
+                style={{ clipPath: "url(#benefits)" }}
+              ></div>
             </div>
           ))}
         </div>
