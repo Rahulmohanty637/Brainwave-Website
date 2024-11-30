@@ -75,6 +75,7 @@ const Services = () => {
 
               <PhotoChatMessage />
             </div>
+
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Video generation</h4>
