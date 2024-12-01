@@ -1,4 +1,3 @@
-import React from "react";
 import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
@@ -27,6 +26,7 @@ const PricingList = () => {
               </>
             )}
           </div>
+
           <Button
             className="w-full mb-6"
             href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
